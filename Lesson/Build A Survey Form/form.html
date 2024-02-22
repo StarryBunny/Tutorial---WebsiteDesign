@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="title">Survey Form</h2>
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+
+        <!-- Dropdown Option -->
+        <div class="form-control">
+            <p>Please select the option best describe you</p>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="worker">Worker</option>
+                <option value="retired">Retired</option>
+                <option value="other">Option</option>
+            </select>
+        </div>
+
+        <!-- Input Type Checkbox -->
+        <div class="form-control">
+            <p>Please select your favourite language <small>(check all that apply)</small></p>
+            <input type="checkbox" name="python">Python</input>
+            <input type="checkbox" name="javascript">Javascript</input>
+            <input type="checkbox" name="c++">C++</input>
+            <input type="checkbox" name="ruby">Ruby</input>
+            <input type="checkbox" name="reactjs">ReactJS</input>
+            <input type="checkbox" name="angular">Angular</input>
+            <input type="checkbox" name="spring">Spring</input>
+        </div>
+
+        <!-- Input Type Radio -->
+        <div class="form-control">
+            <p>Would you recommend our website to your friends?</p>
+            <input type="radio" name="rcm-1" id="yes">Yes</input>
+            <input type="radio" name="rcm-1" id="no">No</input>
+            <input type="radio" name="rcm-1" id="idk">idk</input>
+        </div>
+        
+        <!-- Comment -->
+        <div class="form-control">
+            <p>Any Feedback?</p>
+            <textarea name="" id="" cols="10" rows="10" placeholder="Kindly drop us some feedback :D"></textarea>
+        </div>
+
+        <div>
+            <button type="button">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

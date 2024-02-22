@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background-color: pink;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p:hover{
+    background-color: brown;
+    font-size: 4rem;
+}

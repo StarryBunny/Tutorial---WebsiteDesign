@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.google{
+    width: 500px;
+    height: 300px;
+    padding: 50px 50px;
+    float: center;
+}
+
+button {
+    background-color: rgba(176, 171, 171, 0.5);
+    margin-left: 4px;
+    margin-right: 4px;
+}
