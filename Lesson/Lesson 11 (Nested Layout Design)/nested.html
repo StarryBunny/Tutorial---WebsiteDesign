@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout Design</title>
+
+    <style>
+        .position{
+            display: inline-block;
+            width: 800px;
+        }
+
+        .profile-position{
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+        }
+
+        .profile{
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .content-info-position{
+            display: inline-block;
+        }
+
+        .name{
+            font-weight: bold;
+            margin-bottom: -2px;
+        }
+
+        .species{
+            margin-bottom: -2px;
+            color: grey;
+        }
+
+        .popularity{
+            margin-bottom: -2px;
+            color: grey;
+        }
+
+        .button-position{
+            display: inline-block;
+            width: 400px;
+            margin-left: 90px;
+            align-items: center;
+        }
+
+        .button-design{
+            border-radius: 10px;
+            background-color: rgb(85, 147, 208);
+            cursor: pointer;
+        }
+
+        .button-design:hover{
+            background-color: crimson;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Cat Container -->
+    <div class="position">
+        <!-- Profile -->
+        <div class="profile-position">
+            <img src="oster.jpg" class="profile" alt="oster profile picture">
+        </div>
+
+        <!-- Information Content -->
+        <div class="content-info-position">
+            <p class="name">oliver</p>
+            <p class="species">the bird</p>
+            <p class="popularity">Popular</p>
+        </div>
+
+        <!-- Button -->
+        <div class="button-position">
+            <input type="button" value="Follow" class="button-design">
+        </div>
+    </div>
+</body>
+</html>
